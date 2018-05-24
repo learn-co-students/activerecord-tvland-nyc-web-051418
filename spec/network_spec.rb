@@ -7,6 +7,7 @@ describe Network do
     nbc = Network.create(:channel => 4, :call_letters => "NBC")
     expect(nbc.channel).to eq(4)
     expect(nbc.call_letters).to eq("NBC")
+    binding.pry
   end
 
   it "has many shows" do
