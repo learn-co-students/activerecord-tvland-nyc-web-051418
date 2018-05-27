@@ -23,4 +23,5 @@ namespace :db do
   task :console do
     Pry.start
   end
+
 end
